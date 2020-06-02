@@ -68,18 +68,15 @@ h3{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1em;
 }
-
-/* .phone-graphic {
-    padding-left: 4em;
-} */
 
 .order-number-box {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding-right: 6em;
+    margin-right: 6em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -153,12 +150,7 @@ h3{
     margin-right: auto;
     margin-top: 3em;
 }
-
-
-.receipt {
-    margin-left: -22.5%;
-
-}
+/* 
 .receipt p{
         display: table;
         width: 100%;
@@ -167,4 +159,69 @@ h3{
 
 .first, .price{
     display: table-cell;
+} */
+
+.receipt {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 3em;
+
+}
+
+.row{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 1.5em;
+}
+
+.quantity {
+    margin-right: 2em;
+    text-align: left;
+    width: 1.3em;
+}
+
+.item {
+    width: 12em;
+    text-align: left;
+}
+
+.price {
+    margin-left: 10em;
+    width: 13em;
+    text-align: right;
+}
+
+.line {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line hr {
+    color: #868686;
+    font-weight: 100;
+}
+
+.subtitle {
+    width: 8em;
+    text-align: left; 
+}
+.subtitle-price {
+    margin-left: 12em;
+    width: 16em;
+    text-align: right;
+}
+
+.total {
+    width: 20em;
+    text-align: left; 
+}
+
+.total-price {
+    width: 8em;
+    margin-left: 8em;
+    text-align: right;
 }
