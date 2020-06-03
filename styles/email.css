@@ -10,6 +10,12 @@
 
 
 @font-face {
+    font-family: 'Nunito';
+    font-style: bold;
+    src: url("../fonts/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: 'BrandonBold';
     font-style: bold;
     src: url("../fonts/brandon-text-bold.woff") format("woff");
@@ -36,13 +42,21 @@ em {
 
 .order-ready{
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 0em;
     background-color: white;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding-top: .1em;
-    padding-bottom: 4em;
+    padding-bottom: 0em;
+}
+
+.order-ready-paper{
+    background-color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 h1{
@@ -65,23 +79,27 @@ h3{
 .order-graphic-box {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    justify-content: center;
+
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
     margin-bottom: 1em;
 }
 
 .order-number-box {
+
     padding-top: 30px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 6em;
+    margin-right: 0em;
     margin-left: auto;
     margin-right: auto;
+
 }
 
-.order-number {
+.order-number  {
     padding-bottom: 1em;
 }
 
@@ -90,6 +108,8 @@ h3{
 }
 
 .pickup-info {
+    margin-top: 3em;
+    background-color: #F9F9F9;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -103,6 +123,7 @@ h3{
 
 .employee-note {
     width: 30%;
+    background-color: #F9F9F9;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
@@ -112,7 +133,7 @@ h3{
 .paperless {
     margin-top: 3em;
     background-color: white;
-    width: 60%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 4em;
@@ -132,7 +153,7 @@ h3{
 
 .chatbox {
     background-color: black;
-    width: 60%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2em;
@@ -205,16 +226,224 @@ h3{
     text-align: right;
 }
 
-.total {
-    width: 20em;
+.total{
+    width: 18em;
     text-align: left; 
 }
 
 .total-price {
-    width: 8em;
-    margin-left: 8em;
+
+    margin-top: 3em;
     text-align: right;
+}
+
+
+.top {
+    padding-top: 10px;
+
 }
 .red{
     color: red;
+}
+
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+
+.invoice-box table td {
+    padding: 13px;
+    vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+    font-size: 45px;
+    line-height: 45px;
+    color: #333;
+}
+
+.invoice-box table tr.information table td {
+    padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td{
+    border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.invoice-box table tr.total td {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.wayfont{
+    font-family: Nunito; 
+    font-weight: bold;
+    color: #12B2EB;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .order-graphic-box {
+        padding-top: -15px;
+        display: block;
+        text-align: center;
+        margin-right: 6em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .order-number-box {
+        text-align: center;
+        margin-right: 0em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .phone-graphic img{
+        display: block;
+        margin-left: 2em;
+
+    }
+
+    .order-ready{
+        margin-top: 3em;
+        margin-bottom: 3em;
+        background-color: white;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: .01em;
+        padding-bottom: 4em;
+        box-shadow: 
+              0 0  0 2px rgb(255,255,255),
+              0.3em 0.3em 1em rgba(0,0,0,0.08);
+    }
+
+
+h1{
+    font-family: "BrandonBold";
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2{
+    font-family: "BrandonBold";
+    font-size: 24px;
+}
+
+h3{
+    font-family: "BrandonBold";
+    font-size: 18px;
+}
+
+    
+.order-ready-paper{
+    background-color: white;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 
+              0 0  0 0px rgb(255,255,255),
+              0.3em 0.3em 1em rgba(0,0,0,0.08);
+   
+}
+
+
+
+.pickup-info {
+    background-color: #F9F9F9;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.3em;
+}
+
+.employee-note {
+    width: 50%;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    line-height: 1.3em;
+}
+
+.paperless {
+    margin-top: 3em;
+    background-color: white;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.paperless-note {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.3em;
+}
+
+}
+
+/** RTL **/
+.rtl {
+    direction: rtl;
+}
+
+.rtl table {
+    text-align: right;
+}
+
+.rtl table tr td:nth-child(2) {
+    text-align: left;
 }
