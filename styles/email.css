@@ -96,6 +96,7 @@ h3{
     margin-right: 0em;
     margin-left: auto;
     margin-right: auto;
+    color: #333;
 
 }
 
@@ -170,6 +171,7 @@ h3{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
+    letter-spacing: 1.5px;
 }
 
 .receipt {
@@ -197,6 +199,14 @@ h3{
 .item {
     width: 12em;
     text-align: left;
+    font-family: "BrandonBold";
+}
+
+.item.last {
+    width: 12em;
+    text-align: left;
+    font-family: "BrandonBold";
+    color: #868686;
 }
 
 .price {
@@ -216,34 +226,25 @@ h3{
     font-weight: 100;
 }
 
-.subtitle {
-    width: 8em;
-    text-align: left; 
-}
-.subtitle-price {
-    margin-left: 12em;
-    width: 16em;
-    text-align: right;
-}
-
-.total{
-    width: 18em;
-    text-align: left; 
-}
-
-.total-price {
-
-    margin-top: 3em;
-    text-align: right;
-}
-
 
 .top {
     padding-top: 10px;
 
 }
-.red{
-    color: red;
+
+.item.last.total.top {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.price {
+    font-family: "BrandonRegular";
+}
+
+.payment {
+    font-family: "BrandonRegular";
+    font-size: .8em;
+    color: #868686;
 }
 
 .invoice-box {
@@ -314,8 +315,26 @@ h3{
     font-family: Nunito; 
     font-weight: bold;
     color: #12B2EB;
-
 }
+
+.waycolor{
+    font-weight: bold;
+    color: #12B2EB;
+}
+
+.light {
+    color: #868686;
+}
+
+.bold {
+    font-family: "BrandonBold";
+}
+
+a {
+    color: #12B2EB;
+    text-decoration: underline;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -396,9 +415,6 @@ h3{
               0.3em 0.3em 1em rgba(0,0,0,0.08);
    
 }
-
-
-
 .pickup-info {
     background-color: #F9F9F9;
     width: 60%;
