@@ -170,17 +170,11 @@ h3{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
-}
-/* 
-.receipt p{
-        display: table;
-        width: 100%;
+    letter-spacing: 1.5px;
 
 }
 
-.first, .price{
-    display: table-cell;
-} */
+
 
 .receipt {
     margin-left: auto;
@@ -207,13 +201,11 @@ h3{
 .item {
     width: 12em;
     text-align: left;
+    font-family: "BrandonBold";
+    color: #000000;
 }
 
-.price {
-    margin-left: 10em;
-    width: 13em;
-    text-align: right;
-}
+
 
 .line {
     width: 80%;
@@ -252,9 +244,7 @@ h3{
     padding-top: 10px;
 
 }
-.red{
-    color: red;
-}
+
 
 .invoice-box {
     max-width: 800px;
@@ -262,7 +252,6 @@ h3{
     padding: 30px;
     font-size: 16px;
     line-height: 24px;
-    color: #555;
 }
 
 .invoice-box table {
@@ -287,7 +276,7 @@ h3{
 .invoice-box table tr.top table td.title {
     font-size: 45px;
     line-height: 45px;
-    color: #333;
+    color: #000000;
 }
 
 .invoice-box table tr.information table td {
@@ -306,25 +295,63 @@ h3{
 
 .invoice-box table tr.item td{
     border-bottom: 1px solid #eee;
+    font-size: 14px;
+    width: 100%;
+
 }
 
 .invoice-box table tr.item.last td {
     border-bottom: none;
     padding: 5px;
     padding-top: 15px;
+
 }
 
 .invoice-box table tr.total td {
     border-top: 1px solid #eee;
     padding-top: 10px;
     font-weight: bold;
+    font-size: 1.2em;
+    color: #000000;
 }
+
+.grey{
+    color: #868686; 
+}
+
 
 .wayfont{
     font-family: Nunito; 
     font-weight: bold;
     color: #12B2EB;
 
+}
+
+
+.bold {
+    font-family: "BrandonBold";
+}
+
+.waycolor{
+    font-weight: bold;
+    color: #12B2EB;
+}
+
+a{
+    color: #12B2EB;   
+}
+
+.price {
+    margin-left: 10em;
+    width: 13em;
+    text-align: right;
+    font-family: "BrandonMedium";
+}
+
+.payment {
+    font-family: "BrandonRegular";
+    font-size: .7em;
+    color: #868686;
 }
 
 
@@ -456,4 +483,11 @@ h3{
 
 .rtl table tr td:nth-child(2) {
     text-align: left;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+    padding: 5px;
+    padding-top: 10px;
+
 }
