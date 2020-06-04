@@ -172,7 +172,10 @@ h3{
     margin-right: auto;
     margin-top: 3em;
     letter-spacing: 1.5px;
+
 }
+
+
 
 .receipt {
     margin-left: auto;
@@ -200,20 +203,10 @@ h3{
     width: 12em;
     text-align: left;
     font-family: "BrandonBold";
+    color: #000000;
 }
 
-.item.last {
-    width: 12em;
-    text-align: left;
-    font-family: "BrandonBold";
-    color: #868686;
-}
 
-.price {
-    margin-left: 10em;
-    width: 13em;
-    text-align: right;
-}
 
 .line {
     width: 80%;
@@ -241,19 +234,14 @@ h3{
     font-family: "BrandonRegular";
 }
 
-.payment {
-    font-family: "BrandonRegular";
-    font-size: .8em;
-    color: #868686;
-}
 
 .invoice-box {
     max-width: 800px;
     margin: auto;
     padding: 30px;
+    padding-bottom: 10px;
     font-size: 16px;
     line-height: 24px;
-    color: #555;
 }
 
 .invoice-box table {
@@ -278,7 +266,7 @@ h3{
 .invoice-box table tr.top table td.title {
     font-size: 45px;
     line-height: 45px;
-    color: #333;
+    color: #000000;
 }
 
 .invoice-box table tr.information table td {
@@ -297,19 +285,30 @@ h3{
 
 .invoice-box table tr.item td{
     border-bottom: 1px solid #eee;
+    font-size: 14px;
+    width: 100%;
+
 }
 
 .invoice-box table tr.item.last td {
     border-bottom: none;
     padding: 5px;
     padding-top: 15px;
+
 }
 
 .invoice-box table tr.total td {
     border-top: 1px solid #eee;
     padding-top: 10px;
     font-weight: bold;
+    font-size: 1.2em;
+    color: #000000;
 }
+
+.grey{
+    color: #868686; 
+}
+
 
 .wayfont{
     font-family: Nunito; 
@@ -335,6 +334,33 @@ a {
     text-decoration: underline;
 }
 
+
+
+.bold {
+    font-family: "BrandonBold";
+}
+
+.waycolor{
+    font-weight: bold;
+    color: #12B2EB;
+}
+
+a{
+    color: #12B2EB;   
+}
+
+.price {
+    margin-left: 10em;
+    width: 13em;
+    text-align: right;
+    font-family: "BrandonMedium";
+}
+
+.payment {
+    font-family: "BrandonRegular";
+    font-size: .7em;
+    color: #868686;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -364,11 +390,13 @@ a {
         margin-right: 0em;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 2em;
+        padding-top: 0;
     }
 
     .phone-graphic img{
         display: block;
-        margin-left: 2em;
+        margin-left: 4em;
 
     }
 
@@ -443,7 +471,7 @@ h3{
 }
 
 .paperless-note {
-    width: 95%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.3em;
@@ -462,4 +490,11 @@ h3{
 
 .rtl table tr td:nth-child(2) {
     text-align: left;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+    padding: 5px;
+    padding-top: 10px;
+
 }
