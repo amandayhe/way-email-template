@@ -48,7 +48,10 @@ em {
     margin-left: auto;
     margin-right: auto;
     padding-top: .1em;
-    padding-bottom: 0em;
+    padding-bottom: 2em;
+    box-shadow: 
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.08);
 }
 
 .order-ready-paper{
@@ -56,6 +59,9 @@ em {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.08);
    
 }
 
@@ -96,7 +102,7 @@ h3{
     margin-right: 0em;
     margin-left: auto;
     margin-right: auto;
-    color: #333;
+    color: #000;
 
 }
 
@@ -153,7 +159,7 @@ h3{
 }
 
 .chatbox {
-    background-color: black;
+    background-color: #333;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -194,9 +200,9 @@ h3{
 }
 
 .quantity {
-    margin-right: 2em;
+    margin-right: 1em;
     text-align: left;
-    width: 1.3em;
+    width: 1.9em;
 }
 
 .item {
@@ -260,23 +266,26 @@ h3{
 }
 
 .invoice-box table tr.top table td {
-    padding-bottom: 20px;
+    padding-bottom: 13px;
 }
 
 .invoice-box table tr.top table td.title {
     font-size: 45px;
     line-height: 45px;
     color: #000000;
+
 }
 
 .invoice-box table tr.information table td {
     padding-bottom: 40px;
+
 }
 
 .invoice-box table tr.heading td {
     background: #eee;
     border-bottom: 1px solid #ddd;
     font-weight: bold;
+
 }
 
 .invoice-box table tr.details td {
@@ -287,6 +296,11 @@ h3{
     border-bottom: 1px solid #eee;
     font-size: 14px;
     width: 100%;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
 
 }
 
@@ -362,8 +376,20 @@ a{
     color: #868686;
 }
 
+br{content:' ';}
+br:after{content:' ';}
 
 @media only screen and (max-width: 600px) {
+
+    br
+{   content: "A" !important;
+    display: block !important;
+}
+    .payment {
+        font-family: "BrandonRegular";
+        font-size: 14px;
+        color: #868686;
+    }
     .invoice-box table tr.top table td {
         width: 100%;
         display: block;
@@ -374,6 +400,10 @@ a{
         width: 100%;
         display: block;
         text-align: center;
+    }
+
+    .line{
+        width: 100%;
     }
 
     .order-graphic-box {
@@ -396,7 +426,7 @@ a{
 
     .phone-graphic img{
         display: block;
-        margin-left: 4em;
+        margin-left: 1.5em;
 
     }
 
@@ -408,7 +438,7 @@ a{
         margin-left: auto;
         margin-right: auto;
         padding-top: .01em;
-        padding-bottom: 4em;
+        padding-bottom: 2em;
         box-shadow: 
               0 0  0 2px rgb(255,255,255),
               0.3em 0.3em 1em rgba(0,0,0,0.08);
@@ -441,11 +471,19 @@ h3{
     box-shadow: 
               0 0  0 0px rgb(255,255,255),
               0.3em 0.3em 1em rgba(0,0,0,0.08);
+}
+
+
+.invoice-box{
+   
+    padding-bottom: -90%;
    
 }
+
+
 .pickup-info {
     background-color: #F9F9F9;
-    width: 60%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.3em;
