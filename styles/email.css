@@ -45,7 +45,10 @@ em {
     margin-left: auto;
     margin-right: auto;
     padding-top: .1em;
-    padding-bottom: 0em;
+    padding-bottom: 2em;
+    box-shadow: 
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.08);
 }
 
 .order-ready-paper{
@@ -53,6 +56,9 @@ em {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.08);
    
 }
 
@@ -207,6 +213,10 @@ h3{
 }
 
 .chatbox {
+<<<<<<< HEAD
+=======
+    background-color: #333;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
     width: 100%;
 
     padding-top: 2em;
@@ -226,8 +236,15 @@ h3{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
+<<<<<<< HEAD
     letter-spacing: 0px;
+=======
+    letter-spacing: 1.5px;
+
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 }
+
+
 
 .receipt {
     margin-left: auto;
@@ -246,14 +263,19 @@ h3{
 }
 
 .quantity {
+<<<<<<< HEAD
     margin-right: auto;
+=======
+    margin-right: 1em;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
     text-align: left;
-    width: 1.3em;
+    width: 1.9em;
 }
 
 .item {
     width: 210%;
     text-align: left;
+<<<<<<< HEAD
     font-family: "Nunito-Bold";
 }
 
@@ -263,12 +285,13 @@ h3{
     font-family: "Nunito-Bold";
     color: #868686;
 }
-
-.price {
-    margin-left: 10em;
-    width: 13em;
-    text-align: right;
+=======
+    font-family: "BrandonBold";
+    color: #000000;
 }
+
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
+
 
 .line {
     width: 80%;
@@ -296,17 +319,21 @@ h3{
     font-family: "Nunito-regular";
 }
 
+<<<<<<< HEAD
 .payment {
     font-family: "Nunito-regular";
     font-size: .8em;
     color: #868686;
 }
+=======
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 
 
 
 
 
 .invoice-box {
+<<<<<<< HEAD
     position: relative;
     margin-left:.5em;
     margin-right:auto;
@@ -314,6 +341,14 @@ h3{
     font-size: 16px;
     line-height: 24px;
     color: #000;
+=======
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 }
 
 .invoice-box table {
@@ -334,15 +369,23 @@ h3{
 }
 
 .invoice-box table tr.top table td {
+<<<<<<< HEAD
     padding-bottom: 20px;
 
+=======
+    padding-bottom: 13px;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 }
 
 .invoice-box table tr.top table td.title {
     font-size: 45px;
     line-height: 45px;
+<<<<<<< HEAD
     color: #000;
     width:160%;
+=======
+    color: #000000;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 
 }
 
@@ -355,7 +398,10 @@ h3{
     background: #eee;
     border-bottom: 1px solid #ddd;
     font-weight: bold;
+<<<<<<< HEAD
     width:160%;
+=======
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 
 }
 
@@ -365,13 +411,24 @@ h3{
 
 .invoice-box table tr.item td{
     border-bottom: 1px solid #eee;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+
 }
 
 .invoice-box table tr.item.last td {
     border-bottom: none;
     padding: 5px;
     padding-top: 15px;
+<<<<<<< HEAD
     width:160%;
+=======
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 
 }
 
@@ -379,14 +436,21 @@ h3{
     border-top: 1px solid #eee;
     padding-top: 10px;
     font-weight: bold;
+    font-size: 1.2em;
+    color: #000000;
 }
 
+<<<<<<< HEAD
 .invoice-box table tr.item.love td {
     padding: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
     width:160%;
 
+=======
+.grey{
+    color: #868686; 
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 }
 
 
@@ -454,6 +518,7 @@ a {
         display: inline-block;
     }
 
+<<<<<<< HEAD
     .gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
 
     .grey{
@@ -517,6 +582,47 @@ background-size: cover;
 position: relative;
 display: block;
 left: .5%;
+=======
+.bold {
+    font-family: "BrandonBold";
+}
+
+.waycolor{
+    font-weight: bold;
+    color: #12B2EB;
+}
+
+a{
+    color: #12B2EB;   
+}
+
+.price {
+    margin-left: 10em;
+    width: 13em;
+    text-align: right;
+    font-family: "BrandonMedium";
+}
+
+.payment {
+    font-family: "BrandonRegular";
+    font-size: .7em;
+    color: #868686;
+}
+
+br{content:' ';}
+br:after{content:' ';}
+
+@media only screen and (max-width: 600px) {
+
+    br
+{   content: "A" !important;
+    display: block !important;
+}
+    .payment {
+        font-family: "BrandonRegular";
+        font-size: 14px;
+        color: #868686;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
     }
     .invoice-box table tr.top table td {
         width: 100%;
@@ -528,6 +634,10 @@ left: .5%;
         width: 100%;
         display: block;
         text-align: center;
+    }
+
+    .line{
+        width: 100%;
     }
 
     .order-graphic-box {
@@ -543,8 +653,19 @@ left: .5%;
         margin-right: 0em;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 2em;
+        padding-top: 0;
     }
 
+<<<<<<< HEAD
+=======
+    .phone-graphic img{
+        display: block;
+        margin-left: 1.5em;
+
+    }
+
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
     .order-ready{
         margin-top: 0em;
         margin-bottom: 1em;
@@ -553,6 +674,7 @@ left: .5%;
         margin-left: auto;
         margin-right: auto;
         padding-top: .01em;
+<<<<<<< HEAD
         padding-bottom: 0em;
 
     }
@@ -563,6 +685,12 @@ left: .5%;
         font-size: 36px;
         font-weight: normal;
         text-align: center;
+=======
+        padding-bottom: 2em;
+        box-shadow: 
+              0 0  0 2px rgb(255,255,255),
+              0.3em 0.3em 1em rgba(0,0,0,0.08);
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
     }
 
     .order-ready h1 {
@@ -637,13 +765,32 @@ h3{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
   
+=======
+    box-shadow: 
+              0 0  0 0px rgb(255,255,255),
+              0.3em 0.3em 1em rgba(0,0,0,0.08);
+}
+
+
+.invoice-box{
+   
+    padding-bottom: -90%;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
    
 }
+
+
 .pickup-info {
+<<<<<<< HEAD
     background-color: #FFFFFF;
     width: 85%;
 
+=======
+    background-color: #F9F9F9;
+    width: 75%;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
     margin-left: auto;
     margin-right: auto;
     line-height: 1.3em;
@@ -671,7 +818,11 @@ h3{
 }
 
 .paperless-note {
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 85%;
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
     margin-left: auto;
     margin-right: auto;
     line-height: 1.3em;
@@ -764,5 +915,16 @@ width: 100%;
 }
 
 .rtl table tr td:nth-child(2) {
+<<<<<<< HEAD
     text-align: center;
+=======
+    text-align: left;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+    padding: 5px;
+    padding-top: 10px;
+
+>>>>>>> 0377550078de4cc9085a0d66b673ef95534c18bd
 }
